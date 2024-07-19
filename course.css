@@ -1,0 +1,56 @@
+/* style.css */
+.testimonials-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.courses {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 5rem 2rem;
+    text-align: center;
+    gap: 5rem;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+@media(min-width : 580px) {
+    .carousel-item {
+        display: none;
+    }
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.testimonial {
+    padding: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, .2);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
